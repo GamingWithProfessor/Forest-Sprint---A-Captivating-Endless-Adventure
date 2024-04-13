@@ -23,6 +23,5 @@ public class SpawnManager : MonoBehaviour
     {
         Vector3 spawnPos = new Vector3(25, 0, 0);
         Instantiate(Obstacle, spawnPos, Obstacle.transform.rotation);
-        Debug.Log("GameOver");
     }
 }
